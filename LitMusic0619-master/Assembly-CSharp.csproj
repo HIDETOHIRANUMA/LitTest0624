@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{3517D6E4-0F88-2EDC-8B80-3D378FE821BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AVProWindowsMedia\Demos\Scripts\AVProWindowsMediaMaterialMappingDemo.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Demos\Scripts\AVProWindowsMediaPlayVideoDemo.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Demos\Scripts\AutoRotate.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Demos\Scripts\DemoInfo.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Demos\Scripts\FrameExtractDemo.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Demos\Scripts\MultiChannelDemo2.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Demos\Scripts\MultiChannelDemo2User.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Demos\Scripts\MultiVideoDemo.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Demos\Scripts\PlayQueueDemo.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Demos\Scripts\PlayQueueDemoUI.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Demos\Scripts\SphereDemo.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Demos\Scripts\VcrDemo.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Scripts\Components\AVProWindowsMediaApplyUITextureNGUI.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Scripts\Components\AVProWindowsMediaControlPlayOnEnable.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Scripts\Components\AVProWindowsMediaGUIDisplay.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Scripts\Components\AVProWindowsMediaManager.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Scripts\Components\AVProWindowsMediaMaterialApply.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Scripts\Components\AVProWindowsMediaMeshApply.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Scripts\Components\AVProWindowsMediaMovie.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Scripts\Components\AVProWindowsMediaMovieFromResource.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Scripts\Components\AVProWindowsMediaUGUIComponent.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Scripts\Internal\AVProWindowsMedia.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Scripts\Internal\AVProWindowsMediaFormatConverter.cs" />
+     <Compile Include="Assets\AVProWindowsMedia\Scripts\Internal\AVProWindowsMediaPlugin.cs" />
+     <Compile Include="Assets\Editor1\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\Detector.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\DetectorLogicGate.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\ExtendedFingerDetector.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\FingerDirectionDetector.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\PalmDirectionDetector.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\PinchDetector.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\ProximityDetector.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\HandFactory.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\HandPool.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\HandProxy.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\HandRepresentation.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\CapsuleHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\DebugHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\FingerModel.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\HandDrop.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\HandEnableDisable.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\HandFader.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\HandModel.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\HandTransitionBehavior.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\IHandModel.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\RigidFinger.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\RigidHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\SkeletalFinger.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\SkeletalHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\TestHandFactory.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\LeapDeviceInfo.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\LeapHandController.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\LeapImageRetriever.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\LeapProvider.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\LeapServiceProvider.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\DisconnectionNotice.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\EnableDepthBuffer.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\ExecutionOrder.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\FitHeightToScreen.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\FrameRateControls.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\KeyEnableBehaviors.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\KeyEnableGameObjects.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\LeapUnityExtensions.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\SceneSettings.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\SmoothedFloat.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\SmoothedQuaternion.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\SmoothedVector3.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\StretchToScreen.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\Utils.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\VR\EyeType.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\VR\LeapVRCameraControl.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\VR\LeapVRTemporalWarping.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\VR\TemporalWarpingStatus.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\VR\VRHeightOffset.cs" />
+     <Compile Include="Assets\Scripts\TimerLog\LSkeyS.cs" />
+     <Compile Include="Assets\Scripts\TimerLog\LkeyF.cs" />
+     <Compile Include="Assets\Scripts\TimerLog\MLkeyD.cs" />
+     <Compile Include="Assets\Scripts\TimerLog\MRkeyK.cs" />
+     <Compile Include="Assets\Scripts\TimerLog\RSkeyL.cs" />
+     <Compile Include="Assets\Scripts\TimerLog\RkeyJ.cs" />
+     <Compile Include="Assets\Scripts\TimerLog\test11.cs" />
+     <Compile Include="Assets\Scripts\counter\comboCounter.cs" />
+     <Compile Include="Assets\Scripts\deleteScript.cs" />
+     <Compile Include="Assets\Scripts\handscripts\MRightdebug.cs" />
+     <Compile Include="Assets\Scripts\handscripts\Mleftdebug.cs" />
+     <Compile Include="Assets\Scripts\handscripts\Rightdebug2.cs" />
+     <Compile Include="Assets\Scripts\handscripts\SideLTdebug.cs" />
+     <Compile Include="Assets\Scripts\handscripts\SideRTdebug.cs" />
+     <Compile Include="Assets\Scripts\handscripts\garbage\Mlefthand.cs" />
+     <Compile Include="Assets\Scripts\handscripts\leftdebug.cs" />
+     <Compile Include="Assets\Scripts\hitScripts\hitLT.cs" />
+     <Compile Include="Assets\Scripts\hitScripts\hitMRight.cs" />
+     <Compile Include="Assets\Scripts\hitScripts\hitMleft.cs" />
+     <Compile Include="Assets\Scripts\hitScripts\hitRT.cs" />
+     <Compile Include="Assets\Scripts\hitScripts\hitRight.cs" />
+     <Compile Include="Assets\Scripts\hitScripts\hitleft.cs" />
+     <Compile Include="Assets\Scripts\insta\cibersander\CCinstaleft.cs" />
+     <Compile Include="Assets\Scripts\insta\instaMRight.cs" />
+     <Compile Include="Assets\Scripts\insta\instaMleft.cs" />
+     <Compile Include="Assets\Scripts\insta\instaRight.cs" />
+     <Compile Include="Assets\Scripts\insta\instaSLT.cs" />
+     <Compile Include="Assets\Scripts\insta\instaSRT.cs" />
+     <Compile Include="Assets\Scripts\insta\instaleft.cs" />
+     <Compile Include="Assets\Scripts\movescript.cs" />
+     <Compile Include="Assets\Scripts\turnRotate.cs" />
+     <Compile Include="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" />
+     <Compile Include="Assets\theNotes\Script\CamControl.cs" />
+     <Compile Include="Assets\theNotes\Script\GUIConrtol_note.cs" />
+     <Compile Include="Assets\theNotes\Script\NoteAnimatorControl.cs" />
+     <None Include="Assets\AVProWindowsMedia\Resources\AVProWindowsMedia_YUV_HDYC2RGBA.shader" />
+     <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\AVProWindowsMedia\Demos\Materials\Projector Additive.shader" />
+     <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
+     <None Include="Assets\AVProWindowsMedia\Resources\AVProWindowsMedia_Copy.shader" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\FXAA\Resources\FXAA3.cginc" />
+     <None Include="Assets\LeapMotion\README_BEFORE_UPDATING.txt" />
+     <None Include="Assets\theNotes\Script\stateName.txt" />
+     <None Include="Assets\AVProWindowsMedia\Materials\InsideSphere.shader" />
+     <None Include="Assets\AVProWindowsMedia\Resources\AVProWindowsMedia_YCoCg2RGB.shader" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Resources\ScreenSpaceReflection.shader" />
+     <None Include="Assets\LeapMotion\readme.txt" />
+     <None Include="Assets\AVProWindowsMedia\Resources\AVProWindowsMedia_YUV_YUY22RGBA.shader" />
+     <None Include="Assets\AVProWindowsMedia\Resources\AVProWindowsMedia_Shared.cginc" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Resources\DepthOfField.shader" />
+     <None Include="Assets\theNotes\00_ReadMe\ReadMe_en.txt" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Resources\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\AmbientOcclusion\Resources\AmbientOcclusion.shader" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\FXAA\Resources\FXAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\HistogramRender.shader" />
+     <None Include="Assets\AVProWindowsMedia\Demos\Materials\UI-DefaultFont-ExtraTexture.shader" />
+     <None Include="Assets\LeapMotion\Dependencies.txt" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\TonemappingColorGrading.cginc" />
+     <None Include="Assets\theNotes\Script\IMinfo.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\LeapMotion\Resources\ThresholdOverlay.shader" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\SMAA\Resources\SMAA.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\Bloom\Resources\Bloom.shader" />
+     <None Include="Assets\AVProWindowsMedia\Resources\AVProWindowsMedia_YUV_NV12_709.shader" />
+     <None Include="Assets\LeapMotion\Resources\PassthroughForeground.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\SMAA\Resources\SMAA.cginc" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\LeapMotion\Resources\PassthroughBackground.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\theNotes\00_ReadMe\ReadMe_kr.txt" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\TonemappingColorGrading.shader" />
+     <None Include="Assets\theNotes\00_ReadMe\ReadMe_jp.txt" />
+     <None Include="Assets\AVProWindowsMedia\Materials\FillBackground.shader" />
+     <None Include="Assets\AVProWindowsMedia\Demos\Materials\UI-Default-ExtraTexture.shader" />
+     <None Include="Assets\AVProWindowsMedia\Resources\AVProWindowsMedia_RAW_BGRA2RGBA.shader" />
+     <None Include="Assets\LeapMotion\Version.txt" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Resources\MedianFilter.shader" />
+     <None Include="Assets\AVProWindowsMedia\Resources\AVProWindowsMedia_YUV_UYVY2RGBA.shader" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Resources\BokehSplatting.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\AVProWindowsMedia\Resources\AVProWindowsMedia_YUV_YVYU2RGBA .shader" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\LensAberrations\Resources\LensAberrations.shader" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\HistogramCompute.compute" />
+     <None Include="Assets\AVProWindowsMedia\Resources\AVProWindowsMedia_YUV_YUY27092RGBA.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="LeapCSharp.NET3.5">
+ <HintPath>C:/Users/hideto hiranuma/Desktop/LitMusic0619-master/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{D1A79AD0-829C-EA6D-EACA-A144C1238534}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
